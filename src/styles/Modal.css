@@ -1,0 +1,35 @@
+.background {
+  background-color: rgba(108, 133, 123, 0.535);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 130%;
+}
+
+@media (max-width: 1670px) {
+  .background {
+    height: 170%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .background {
+    height: 250%;
+  }
+}
+
+.modalContainer {
+  text-align: center;
+
+  position: absolute;
+  background-color: white;
+  width: 650px;
+
+  top: 250px;
+  left: 300px;
+}
+
+.modal-img {
+  width: 400px;
+}
