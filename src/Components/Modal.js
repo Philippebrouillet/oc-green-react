@@ -21,7 +21,9 @@ const Modal = ({ modalcart, updateModalCart, setModal }) => {
           </div>
         ))}
         <br />
-        <button className="boutonR" onClick={() => closeModal(false)}></button>
+        <button className="boutonR" onClick={() => closeModal()}>
+          close{" "}
+        </button>
       </div>
     </div>
   );
